@@ -8,20 +8,27 @@ For understanding authorization mechanic, please learn https://github.com/kahmal
 
 <dl>
 <dt><a href="#clientDataRow/add/_id_Script">clientDataRow/add/:id_Script([name], [content], [rewrite])</a></dt>
-<dd></dd>
+<dd><p>Api for client data row list</p>
+</dd>
 <dt><a href="#clientDataRowDownload/_id/_format">clientDataRowDownload/:id/:format()</a></dt>
-<dd></dd>
+<dd><p>Api for client data row downloading</p>
+</dd>
 <dt><a href="#clientScript/_id_script">clientScript/:id_script([content], [public])</a></dt>
-<dd></dd>
+<dd><p>Api for client script</p>
+</dd>
 <dt><a href="#clientScriptPatch/_id_script/_field">clientScriptPatch/:id_script/:field([schedule], [autoloading], [proxy])</a></dt>
-<dd></dd>
+<dd><p>Api for client script patching</p>
+</dd>
 <dt><a href="#downloadScheduleOutput/_id_script">downloadScheduleOutput/:id_script()</a></dt>
-<dd></dd>
+<dd><p>Api for client script schedule output</p>
+</dd>
 </dl>
 
 <a name="clientDataRow/add/_id_Script"></a>
 
 ## clientDataRow/add/:id_Script([name], [content], [rewrite])
+Api for client data row list
+
 **Kind**: global function  
 **Summary**: <br/>
 Api for client data row list <br/>
@@ -43,6 +50,8 @@ curl https://grabli.ml/api/v1/clientDataRow/add/werhg34hrf -X POST -H "X-Auth-To
 <a name="clientDataRowDownload/_id/_format"></a>
 
 ## clientDataRowDownload/:id/:format()
+Api for client data row downloading
+
 **Kind**: global function  
 **Summary**: <br/>
 Api for client data row downloading  
@@ -57,6 +66,8 @@ curl https://grabli.ml/api/v1/clientDataRowDownload/324dfdsfew/download -X GET -
 <a name="clientScript/_id_script"></a>
 
 ## clientScript/:id_script([content], [public])
+Api for client script
+
 **Kind**: global function  
 **Summary**: <br/>
 Api for client script <br/>
@@ -88,6 +99,8 @@ curl https://grabli.ml/api/v1/clientScript/hdfger34734 -X DELETE -H "X-Auth-Toke
 <a name="clientScriptPatch/_id_script/_field"></a>
 
 ## clientScriptPatch/:id_script/:field([schedule], [autoloading], [proxy])
+Api for client script patching
+
 **Kind**: global function  
 **Summary**: <br/>
 Api for client script patching <br/>
@@ -111,6 +124,8 @@ curl https://grabli.ml/api/v1/clientScriptPatch/hdfger34734/autoloading -X POST 
 <a name="downloadScheduleOutput/_id_script"></a>
 
 ## downloadScheduleOutput/:id_script()
+Api for client script schedule output
+
 **Kind**: global function  
 **Summary**: <br/>
 Api for client script schedule output  
